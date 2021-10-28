@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,7 +13,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MainComponent } from './nav-menu/main/main.component';
-import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 @NgModule({
@@ -31,7 +34,10 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatAutocompleteModule
+    MatDatepickerModule,
+    MatInputModule,
+    MatFormFieldModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
