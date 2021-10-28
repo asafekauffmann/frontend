@@ -16,6 +16,7 @@ import { MainComponent } from './nav-menu/main/main.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ObserversModule } from '@angular/cdk/observers';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatDatepickerModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    ObserversModule
     
   ],
   providers: [],
