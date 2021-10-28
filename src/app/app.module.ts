@@ -17,6 +17,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ObserversModule } from '@angular/cdk/observers';
+import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -38,8 +41,8 @@ import { ObserversModule } from '@angular/cdk/observers';
     MatDatepickerModule,
     MatInputModule,
     MatFormFieldModule,
-    ObserversModule
-    
+    ObserversModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
